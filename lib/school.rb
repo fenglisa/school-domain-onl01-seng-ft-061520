@@ -22,7 +22,7 @@ class School
   end
   
   def sort
-    roster.collect {|grade_number,student_name| roster[grade_number] = roster[grade_number].sort}
+    roster.collect {|grade_number,student_name| roster[grade_number] = student_name.sort}
     roster
   end
   
